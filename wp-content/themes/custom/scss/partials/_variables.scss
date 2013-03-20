@@ -1,0 +1,125 @@
+/* Color Scheme */
+// $darkest 	: #211426;
+// $dark 		: #413659;
+// $medium   	: #656f8c;
+// $light   	: #9bbfab;
+// $lighter   	: #f2efdf; 
+
+
+/* $darkest 	: #105b63;
+$dark 		: #fffad5;
+$medium   	: #ffd34e;
+$light   	: #db9e36;
+$lighter   	: #bd4832;  */
+
+
+/* $darkest 	: #394042;
+$dark 		: #946E49;
+$medium   	: #EDDBAC ;
+$light   	: #BA8E3A;
+$lighter   	: #872A0C;  */
+
+$darkest 	: #1c1d21;
+$dark 		: #31353d;
+$medium   	: #445878;
+$light   	: #92cdcf;
+$lighter   	: #eeeff7;   
+
+
+$buttonGrad 		: linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.1));
+$buttonGradReverse 	: linear-gradient(top, rgba(0,0,0,.1), rgba(255,255,255,.1));
+
+$buttonShadow: 0 -1px 2px rgba(0,0,0,0.15) inset,  0 1px 1px rgba(255,255,255,0.3) inset;
+$buttonShadowActive: 0 -1px 1px rgba(255,255,255,0.3) inset, 0 1px 2px rgba(0,0,0,0.15) inset;
+$buttonShadowHover: 0 0px 5px rgba(0,0,0,0.2);
+
+$buttonGrad 		: linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.1));
+$buttonGradReverse 	: linear-gradient(top, rgba(0,0,0,.1), rgba(255,255,255,.1));
+
+$buttonShadow: 0 -1px 2px rgba(0,0,0,0.15) inset,  0 1px 1px rgba(255,255,255,0.3) inset;
+$buttonShadowActive: 0 -1px 1px rgba(255,255,255,0.3) inset, 0 1px 2px rgba(0,0,0,0.15) inset;
+$buttonShadowHover: 0 0px 5px rgba(0,0,0,0.2);
+
+// $container-style: magic;
+$total-columns: 12;
+$column-width: 4em;
+$gutter-width: 1em;
+$grid-padding: $gutter-width;
+$border-box-sizing: true;
+$break: 12;
+
+$base-font-size: 14px;
+$base-line-height: 24px;
+$relative-font-sizing: true;
+$min-line-padding: 2px;
+
+
+@mixin radialG($color, $pos)
+{ 	@include background(
+	radial-gradient($pos, ellipse cover, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 100%),
+	$color);
+	background-size: 100%;
+}
+@mixin radialR($color, $pos)
+{ 	@include background(
+	radial-gradient($pos, ellipse cover, rgba(255,255,255,0.35) 0%, rgba(0,0,0,0) 100%),
+	$color);
+	background-size: 100%;
+	
+}
+
+@mixin carbon($color)
+{ 	@include background(
+	radial-gradient(black 15%, transparent 16%) 0 0,
+	radial-gradient(black 15%, transparent 16%) 8px 8px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px);
+	background-size: 16px 16px;
+	background-color: $color; 
+}
+/* @mixin kare($color)
+{
+	@include background(
+	repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+	repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+	linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+	linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1))
+	);
+	background-size: 70px 120px;
+	background-color: $color;
+}
+
+@mixin tartan($color) 
+{
+	@include background(
+	repeating-linear-gradient(transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),
+	repeating-linear-gradient(270deg, transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),
+	repeating-linear-gradient(125deg, transparent, transparent 2px, rgba(0,0,0,.2) 2px, rgba(0,0,0,.2) 3px, transparent 3px, transparent 5px, rgba(0,0,0,.2) 5px)
+	); 
+	background-color: $color;
+}
+
+@mixin zigzag($color) 
+{
+	@include background(
+	linear-gradient(135deg, $color 25%, transparent 25%) -50px 0,
+	linear-gradient(225deg, $color 25%, transparent 25%) -50px 0,
+	linear-gradient(315deg, $color 25%, transparent 25%),
+	linear-gradient(45deg, $color 25%, transparent 25%)
+	); 
+	background-size: 100px 100px;
+}
+
+@mixin cicada($color) 
+{
+	@include background(
+	linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),
+	linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
+	linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),
+	linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%));
+
+	background-color: $color;
+	background-size: 13px, 29px, 37px, 53px;
+} */
+
+$tablet: 8;

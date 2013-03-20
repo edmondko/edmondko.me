@@ -1,0 +1,108 @@
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+/* =Print
+----------------------------------------------- */
+@media print {
+  /* line 10, ../scss/print.scss */
+  body {
+    background: none !important;
+    color: #000;
+    font-size: 10pt; }
+
+  /* line 16, ../scss/print.scss */
+  footer a[rel=bookmark]:link:after, footer a[rel=bookmark]:visited:after {
+    content: " [" attr(href) "] ";
+    /* Show URLs */ }
+
+  /* line 19, ../scss/print.scss */
+  a {
+    text-decoration: none; }
+
+  /* line 25, ../scss/print.scss */
+  .entry-content img, .comment-content img, .author-avatar img, img.wp-post-image {
+    border-radius: 0;
+    box-shadow: none; }
+
+  /* line 29, ../scss/print.scss */
+  .site {
+    clear: both !important;
+    display: block !important;
+    float: none !important;
+    max-width: 100%;
+    position: relative !important; }
+
+  /* line 30, ../scss/print.scss */
+  .site-header {
+    padding-bottom: 20px;
+    margin-bottom: 20px; }
+
+  /* line 31, ../scss/print.scss */
+  .site-header h1 {
+    font-size: 21pt;
+    line-height: 1; }
+
+  /* line 32, ../scss/print.scss */
+  .site-header h2 {
+    color: #000;
+    font-size: 10pt; }
+
+  /* line 34, ../scss/print.scss */
+  .site-header h1 a, .site-header h2 a {
+    color: #000; }
+
+  /* line 46, ../scss/print.scss */
+  .author-avatar, #colophon, #respond, .commentlist .comment-edit-link, .commentlist .reply, .entry-header .comments-link, .entry-meta .edit-link a, .page-link, .site-content nav, .widget-area, img.header-image, .main-navigation {
+    display: none; }
+
+  /* line 47, ../scss/print.scss */
+  .wrapper {
+    border-top: none;
+    box-shadow: none; }
+
+  /* line 48, ../scss/print.scss */
+  .site-content {
+    margin: 0;
+    width: auto; }
+
+  /* line 49, ../scss/print.scss */
+  .singular .entry-header .entry-meta {
+    position: static; }
+
+  /* line 54, ../scss/print.scss */
+  .singular .site-content, .singular .entry-header, .singular .entry-content, .singular footer.entry-meta, .singular .comments-title {
+    margin: 0;
+    width: 100%; }
+
+  /* line 57, ../scss/print.scss */
+  .entry-header .entry-title, .entry-title, .singular .entry-title {
+    font-size: 21pt; }
+
+  /* line 59, ../scss/print.scss */
+  footer.entry-meta, footer.entry-meta a {
+    color: #444;
+    font-size: 10pt; }
+
+  /* line 60, ../scss/print.scss */
+  .author-description {
+    float: none;
+    width: auto; }
+
+  /* Comments */
+  /* line 63, ../scss/print.scss */
+  .commentlist > li.comment {
+    background: none;
+    position: relative;
+    width: auto; }
+
+  /* line 68, ../scss/print.scss */
+  .commentlist .avatar {
+    height: 39px;
+    left: 2.2em;
+    top: 2.2em;
+    width: 39px; }
+
+  /* line 75, ../scss/print.scss */
+  .comments-area article header cite, .comments-area article header time {
+    margin-left: 50px;
+    margin-left: 3.57142857rem; } }

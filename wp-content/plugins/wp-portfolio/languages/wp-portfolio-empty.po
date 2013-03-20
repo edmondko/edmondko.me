@@ -1,0 +1,1586 @@
+# Copyright (C) 2012 Wordpress Portfolio Plugin
+# This file is distributed under the same license as the Wordpress Portfolio Plugin package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Wordpress Portfolio Plugin 1.30\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-portfolio\n"
+"POT-Creation-Date: 2012-09-06 14:09:58+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2012-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: lib/widget.inc.php:115
+msgid "Title:"
+msgstr ""
+
+#: lib/widget.inc.php:122
+msgid "Description:"
+msgstr ""
+
+#: lib/widget.inc.php:129
+msgid "List of Groups to include:"
+msgstr ""
+
+#: lib/widget.inc.php:137
+msgid "Number of Websites to show:"
+msgstr ""
+
+#: lib/widget.inc.php:143
+msgid "Ordering Method:"
+msgstr ""
+
+#: lib/widget.inc.php:158
+msgid "Layout HTML:"
+msgstr ""
+
+#: lib/widget.inc.php:158
+msgid "Required"
+msgstr ""
+
+#: lib/widget.inc.php:160
+msgid "Template Documentation"
+msgstr ""
+
+#: lib/widget.inc.php:165
+msgid "Custom CSS ID:"
+msgstr ""
+
+#: wp-portfolio.php:96
+msgid "Previous"
+msgstr ""
+
+#: wp-portfolio.php:97
+msgid "Next"
+msgstr ""
+
+#: wp-portfolio.php:240
+msgid "Modify Website"
+msgstr ""
+
+#: wp-portfolio.php:241
+msgid "Modify Group"
+msgstr ""
+
+#: wp-portfolio.php:242
+msgid "Groups"
+msgstr ""
+
+#: wp-portfolio.php:243 wp-portfolio.php:348
+msgid "General Settings"
+msgstr ""
+
+#: wp-portfolio.php:244
+msgid "Layout Settings"
+msgstr ""
+
+#: wp-portfolio.php:245
+msgid "Documentation"
+msgstr ""
+
+#: wp-portfolio.php:253
+msgid "Error Logs"
+msgstr ""
+
+#: wp-portfolio.php:296
+msgid "Upgrading WP Portfolio Tables..."
+msgstr ""
+
+#: wp-portfolio.php:313
+msgid ""
+"WP Portfolio has been upgraded, and there's been a slight settings change. "
+"Please choose your Shrink The Web account type in the <a href=\"%s#stw-"
+"account\">Portfolio Settings</a>"
+msgstr ""
+
+#: wp-portfolio.php:361
+msgid ""
+"No %s settings were found, so it appears that the plugin has been "
+"uninstalled. Please <b>deactivate</b> and then <b>activate</b> the %s plugin "
+"again to fix this."
+msgstr ""
+
+#: wp-portfolio.php:372
+msgid ""
+"Are you sure you want to delete all %s settings and data? This action cannot "
+"be undone!"
+msgstr ""
+
+#: wp-portfolio.php:372
+msgid "Yes, delete."
+msgstr ""
+
+#: wp-portfolio.php:372
+msgid "NO!"
+msgstr ""
+
+#: wp-portfolio.php:386
+msgid "Thumbnail cache has now been emptied."
+msgstr ""
+
+#: wp-portfolio.php:413
+msgid ""
+"The keys must only contain letters and numbers. Please check that they are "
+"correct."
+msgstr ""
+
+#: wp-portfolio.php:450
+msgid "%s tables have successfully been upgraded to UTF-8."
+msgstr ""
+
+#: wp-portfolio.php:483
+msgid ""
+"The cache location has successfully been changed. The new cache location is "
+"now:<br/><br/><tt>%s</tt>"
+msgstr ""
+
+#: wp-portfolio.php:488
+msgid "The cache location has not changed, therefore there is nothing to do."
+msgstr ""
+
+#: wp-portfolio.php:495
+msgid "STW Access Key ID"
+msgstr ""
+
+#: wp-portfolio.php:497
+msgid ""
+"The <a href=\"%s#doc-stw\">Shrink The Web</a> Access Key ID is around 15 "
+"characters."
+msgstr ""
+
+#: wp-portfolio.php:500
+msgid "STW Secret Key"
+msgstr ""
+
+#: wp-portfolio.php:502
+msgid ""
+"The <a href=\"%s#doc-stw\">Shrink The Web</a> Secret Key is around 5-10 "
+"characters. This key is never shared, it is only stored in your settings and "
+"used to generate thumbnails for this website."
+msgstr ""
+
+#: wp-portfolio.php:507
+msgid "STW Account Type"
+msgstr ""
+
+#: wp-portfolio.php:509
+msgid "-- Select an account type --"
+msgstr ""
+
+#: wp-portfolio.php:509
+msgid "Free Account"
+msgstr ""
+
+#: wp-portfolio.php:509
+msgid "Paid (Basic or Plus) Account"
+msgstr ""
+
+#: wp-portfolio.php:510
+msgid ""
+"The type of account you have with <a href=\"%s#doc-stw\">Shrink The Web</a>. "
+msgstr ""
+
+#: wp-portfolio.php:511
+msgid ""
+"Either a <i>free account</i>, or a <i>paid (basic or plus) account</i>. Your "
+"account type determines how the portfolio works."
+msgstr ""
+
+#: wp-portfolio.php:512
+msgid ""
+"Learn more about account types in the <a href=\"%s\" target=\"_new\"> FAQ "
+"section.</a>"
+msgstr ""
+
+#: wp-portfolio.php:515
+msgid "Thumbnail Settings"
+msgstr ""
+
+#: wp-portfolio.php:521
+msgid "What thumbnail sizes do you want to use?"
+msgstr ""
+
+#: wp-portfolio.php:523
+msgid "Standard STW Sizes"
+msgstr ""
+
+#: wp-portfolio.php:523
+msgid "My own custom sizes"
+msgstr ""
+
+#: wp-portfolio.php:527
+msgid "Custom Thumbnail Size (Width)"
+msgstr ""
+
+#: wp-portfolio.php:530
+msgid ""
+"Specify your desired width for the custom thumbnail. STW will resize the "
+"thumbnail to be in a 4:3 ratio."
+msgstr ""
+
+#: wp-portfolio.php:531
+msgid ""
+"This feature requires a STW Paid (Basic or Plus) account with custom "
+"thumbnail support."
+msgstr ""
+
+#: wp-portfolio.php:537
+msgid "Small (120 x 90)"
+msgstr ""
+
+#: wp-portfolio.php:538
+msgid "Large (200 x 150)"
+msgstr ""
+
+#: wp-portfolio.php:539
+msgid "Extra Large (320 x 240)"
+msgstr ""
+
+#: wp-portfolio.php:541
+msgid "Thumbnail Size"
+msgstr ""
+
+#: wp-portfolio.php:551 wp-portfolio.php:552 wp-portfolio.php:553
+#: wp-portfolio.php:554 wp-portfolio.php:555 wp-portfolio.php:556
+#: wp-portfolio.php:557
+msgid "days"
+msgstr ""
+
+#: wp-portfolio.php:558
+msgid "Never Expire Thumbnails"
+msgstr ""
+
+#: wp-portfolio.php:561
+msgid "Number of Days to Cache Thumbnail"
+msgstr ""
+
+#: wp-portfolio.php:564
+msgid ""
+"The number of days to hold thumbnails in the cache. Set to a longer time "
+"period if website homepages don't change very often"
+msgstr ""
+
+#: wp-portfolio.php:568
+msgid "(cURL recommended)"
+msgstr ""
+
+#: wp-portfolio.php:571
+msgid "Thumbnail Fetch Method"
+msgstr ""
+
+#: wp-portfolio.php:574
+msgid ""
+"The type of HTTP call used to fetch thumbnails. fopen is usually less secure "
+"and disabled by most web hosts, hence why cURL is recommended."
+msgstr ""
+
+#: wp-portfolio.php:578
+msgid "Match height of website thumbnails"
+msgstr ""
+
+#: wp-portfolio.php:579
+msgid "Match width of website thumbnails"
+msgstr ""
+
+#: wp-portfolio.php:580
+msgid ""
+"Ensure thumbnail is same size or smaller than website thumbnails (default)"
+msgstr ""
+
+#: wp-portfolio.php:582
+msgid "Custom Thumbnail Scale Method"
+msgstr ""
+
+#: wp-portfolio.php:586
+msgid ""
+"How custom thumbnails are scaled to match the size of other website "
+"thumbnails. This is mostly a matter of style. The thumbnails can match "
+"either:"
+msgstr ""
+
+#: wp-portfolio.php:587
+msgid ""
+"a) <strong>the height</strong> of the website thumbnails (with the width "
+"resized to keep the scale of the original image)"
+msgstr ""
+
+#: wp-portfolio.php:588
+msgid ""
+"b) <strong>the width</strong> of the website thumbnails  (with the height "
+"resized to keep the scale of the original image)"
+msgstr ""
+
+#: wp-portfolio.php:589
+msgid ""
+"c) <strong>the width and the height</strong> of the website thumbnails, "
+"where the custom thumbnail is never larger than a website thumbnail, but "
+"still scaled correctly."
+msgstr ""
+
+#: wp-portfolio.php:590
+msgid ""
+"After changing this option, it's recommended to clear the cache so that all "
+"custom thumbnails are sized correctly."
+msgstr ""
+
+#: wp-portfolio.php:594
+msgid "Miscellaneous Settings"
+msgstr ""
+
+#: wp-portfolio.php:597
+msgid "Enable Debug Mode"
+msgstr ""
+
+#: wp-portfolio.php:600
+msgid ""
+"Enables logging of successful thumbnail requests too (all errors are logged "
+"regardless)."
+msgstr ""
+
+#: wp-portfolio.php:604
+msgid "Show Credit Link"
+msgstr ""
+
+#: wp-portfolio.php:606
+msgid "Creates a link back to WP Portfolio and to WPDoctors.co.uk"
+msgstr ""
+
+#: wp-portfolio.php:607
+msgid ""
+"<strong>I've worked hard on this plugin, please consider keeping the link "
+"back to my website!</strong> It's the link back to my site that keeps this "
+"plugin free!"
+msgstr ""
+
+#: wp-portfolio.php:610
+msgid "Clear Thumbnail Cache"
+msgstr ""
+
+#: wp-portfolio.php:616
+msgid "Server Compatibility Checker"
+msgstr ""
+
+#: wp-portfolio.php:620
+msgid "PHP Version"
+msgstr ""
+
+#: wp-portfolio.php:628
+msgid "WP Portfolio requires PHP 5 or above."
+msgstr ""
+
+#: wp-portfolio.php:639
+msgid "Writeable Cache Folder"
+msgstr ""
+
+#: wp-portfolio.php:641 wp-portfolio.php:1398 wp-portfolio.php:1399
+msgid "Yes"
+msgstr ""
+
+#: wp-portfolio.php:646 wp-portfolio.php:1398 wp-portfolio.php:1399
+msgid "No"
+msgstr ""
+
+#: wp-portfolio.php:649
+msgid "WP Portfolio requires a directory for the cache that's writeable."
+msgstr ""
+
+#: wp-portfolio.php:659
+msgid "open_basedir Restriction"
+msgstr ""
+
+#: wp-portfolio.php:661
+msgid "Not Set"
+msgstr ""
+
+#: wp-portfolio.php:666
+msgid "Set"
+msgstr ""
+
+#: wp-portfolio.php:669
+msgid ""
+"The PHP ini open_basedir setting can cause problems with fetching thumbnails."
+msgstr ""
+
+#: wp-portfolio.php:680 wp-portfolio.php:705
+msgid "Change Cache Location"
+msgstr ""
+
+#: wp-portfolio.php:681
+msgid ""
+"You can either have the thumbnail cache stored in the <b>plugin directory</"
+"b> (which gets deleted when you upgrade the plugin), or you can have the "
+"thumbnail cache stored in the <b>wp-content directory</b> (which doesn't get "
+"deleted when you upgrade wp-portfolio). This is only useful if your "
+"thumbnails are set to never be updated and you don't want to lose the cached "
+"thumbnails."
+msgstr ""
+
+#: wp-portfolio.php:683
+msgid "Plugin Location"
+msgstr ""
+
+#: wp-portfolio.php:683 wp-portfolio.php:686
+msgid "Currently Selected"
+msgstr ""
+
+#: wp-portfolio.php:686
+msgid " Location"
+msgstr ""
+
+#: wp-portfolio.php:694
+msgid "Plugin Directory (Recommended)"
+msgstr ""
+
+#: wp-portfolio.php:695
+msgid "wp-content Directory"
+msgstr ""
+
+#: wp-portfolio.php:698
+msgid "New Cache Location"
+msgstr ""
+
+#: wp-portfolio.php:712
+msgid "Upgrade Tables to UTF-8 Codepage (Advanced)"
+msgstr ""
+
+#: wp-portfolio.php:713
+msgid ""
+"As of V1.18, WP Portfolio uses UTF-8 as the default codepage for all text "
+"fields. Previously, for non Latin-based languages, the lack of UTF-8 support "
+"caused rendering issues with characters (such as using question marks and "
+"blocks for certain characters)."
+msgstr ""
+
+#: wp-portfolio.php:714
+msgid ""
+"To upgrade to the new UTF-8 support, just click the button below. If you're "
+"<b>not experiencing problems</b> with website names and descriptions, then "
+"there's no need to click this button.</p>"
+msgstr ""
+
+#: wp-portfolio.php:717
+msgid "Upgrade Codepage to UTF-8"
+msgstr ""
+
+#: wp-portfolio.php:724 wp-portfolio.php:809
+msgid "Uninstalling WP Portfolio"
+msgstr ""
+
+#: wp-portfolio.php:725
+msgid ""
+"If you're going to permanently uninstall WP Portfolio, you can also <a href="
+"\"%s\">remove all settings and data</a>.</p>"
+msgstr ""
+
+#: wp-portfolio.php:751
+msgid "WP Portfolio - Documentation"
+msgstr ""
+
+#: wp-portfolio.php:753
+msgid ""
+"All the information you need to run the plugin is available on this page."
+msgstr ""
+
+#: wp-portfolio.php:755
+msgid "Problems and Support"
+msgstr ""
+
+#: wp-portfolio.php:756
+msgid ""
+"Please check the <a href=\"%s\">Frequently Asked Questions</a> page if you "
+"have any issues."
+msgstr ""
+
+#: wp-portfolio.php:757
+msgid ""
+"As a last resort, please raise a problem in the <a href=\"%s\">WP Portfolio "
+"Support Forum on Wordpress.org</a>, and I'll respond to the ticket as soon "
+"as possible. Please be aware, this might be a couple of days."
+msgstr ""
+
+#: wp-portfolio.php:759
+msgid "Comments and Feedback"
+msgstr ""
+
+#: wp-portfolio.php:760
+msgid ""
+"If you have any comments, ideas or any other feedback on this plugin, please "
+"leave comments on the <a href=\"%s\">WP Portfolio Support Forum on Wordpress."
+"org</a>."
+msgstr ""
+
+#: wp-portfolio.php:762
+msgid "Requesting Features"
+msgstr ""
+
+#: wp-portfolio.php:763
+msgid ""
+"My schedule is extremely busy, and so I have little time to add new features "
+"to this plugin. If you are keen for a feature to be implemented, I can add "
+"new features in return for a small fee which helps cover my time. Due to "
+"running an agency, so my clients are my first priority. By paying a small "
+"fee, you effectively become a client, and therefore I can implement desired "
+"features more quickly. Please contact me via the <a href=\"%s\">WP Doctors "
+"Contact Page</a> if you would like to pay to have a new feature implemented."
+msgstr ""
+
+#: wp-portfolio.php:765
+msgid ""
+"You can see the list of requested features on the <a href=\"%s\">WP "
+"Portfolio page</a> on the <a href=\"%s\">WP Doctors</a> website. If you are "
+"prepared to wait, I do welcome feature ideas, which can be left on the <a "
+"href=\"%s\">WP Portfolio Support Forum on Wordpress.org</a>."
+msgstr ""
+
+#: wp-portfolio.php:768
+msgid "ShrinkTheWeb - Thumbnail Service"
+msgstr ""
+
+#: wp-portfolio.php:769
+msgid ""
+"The plugin requires you to have a free (or paid) account with <a href=\"%s\" "
+"target=\"_blank\">ShrinkTheWeb (STW)</a> if you wish to generate the "
+"thumbnails <b>dynamically</b>. Please read <a href=\"%s\" target=\"_blank"
+"\">the first FAQ about account types</a> to learn more. If you have a paid "
+"account with STW, this plugin will automatically handle the caching of "
+"thumbnails to give your website fast loading times."
+msgstr ""
+
+#: wp-portfolio.php:771
+msgid ""
+"However, you do not need an account with ShrinkTheWeb to use this plugin if "
+"you capture screenshots of your websites yourself. Just can capture your own "
+"screenshots as images, upload those images to your website, and then link to "
+"them in the Custom Thumbnail URL wp-portfolio</b> field."
+msgstr ""
+
+#: wp-portfolio.php:773
+msgid "Portfolio Syntax"
+msgstr ""
+
+#: wp-portfolio.php:774
+msgid ""
+"You can use the following syntax for wp-portfolio within any post or page."
+msgstr ""
+
+#: wp-portfolio.php:776
+msgid "Individual websites"
+msgstr ""
+
+#: wp-portfolio.php:778
+msgid ""
+"To show just one website thumbnail, use %s. The number is the ID of the "
+"website, which can be found on the WP Portfolio summary page."
+msgstr ""
+
+#: wp-portfolio.php:779
+msgid "To show a specific selection of thumbnails, use their IDs like so: %s"
+msgstr ""
+
+#: wp-portfolio.php:782 wp-portfolio.php:1561
+msgid "Website Groups"
+msgstr ""
+
+#: wp-portfolio.php:784
+msgid "To show all groups, use %s"
+msgstr ""
+
+#: wp-portfolio.php:785
+msgid "To show just the group with an ID of 1, use %s"
+msgstr ""
+
+#: wp-portfolio.php:786
+msgid "To show groups with IDs of 1, 2 and 4, use %s"
+msgstr ""
+
+#: wp-portfolio.php:789
+msgid "Paging (Showing a portfolio on several pages)"
+msgstr ""
+
+#: wp-portfolio.php:791
+msgid "To show all websites without any paging, just use %s as normal"
+msgstr ""
+
+#: wp-portfolio.php:792
+msgid "To show 3 websites per page, use %s"
+msgstr ""
+
+#: wp-portfolio.php:793
+msgid "To show 5 websites per page, use %s"
+msgstr ""
+
+#: wp-portfolio.php:796
+msgid "Ordering By Date"
+msgstr ""
+
+#: wp-portfolio.php:798
+msgid ""
+"To order websites by the date they were added, showing newest first (so "
+"descending order) use %s. Group names are automatically hidden when ordering "
+"by date."
+msgstr ""
+
+#: wp-portfolio.php:799
+msgid ""
+"To order websites by the date they were added, showing oldest first (so "
+"ascending order) use %s. Group names are automatically hidden when ordering "
+"by date."
+msgstr ""
+
+#: wp-portfolio.php:802
+msgid "Miscellaneous Options"
+msgstr ""
+
+#: wp-portfolio.php:804
+msgid ""
+"To hide the title/description of all groups shown in a portfolio for just a "
+"single post/page without affecting other posts/pages, just use %s"
+msgstr ""
+
+#: wp-portfolio.php:805
+msgid ""
+"To show the portfolio in reverse order, just use %s (The <tt>desc=</tt> is "
+"short for descending order)"
+msgstr ""
+
+#: wp-portfolio.php:810
+msgid ""
+"If you're going to permanently uninstall WP Portfolio, you can also <a href="
+"\"%s\">remove all settings and data</a>."
+msgstr ""
+
+#: wp-portfolio.php:813
+msgid "Portfolio Layout Templates"
+msgstr ""
+
+#: wp-portfolio.php:815
+msgid "The default templates for the groups and websites below as a reference."
+msgstr ""
+
+#: wp-portfolio.php:817
+msgid "Replace with the group name."
+msgstr ""
+
+#: wp-portfolio.php:818
+msgid "Replace with the group description."
+msgstr ""
+
+#: wp-portfolio.php:819
+msgid "Replace with the website name."
+msgstr ""
+
+#: wp-portfolio.php:820
+msgid "Replace with the website url."
+msgstr ""
+
+#: wp-portfolio.php:821
+msgid "Replace with the website description."
+msgstr ""
+
+#: wp-portfolio.php:822
+msgid "Replace with the website thumbnail including the &lt;img&gt; tag."
+msgstr ""
+
+#: wp-portfolio.php:823
+msgid "Replace with the website thumbnail URL (no HTML)."
+msgstr ""
+
+#: wp-portfolio.php:824
+msgid "Replace with the custom field data."
+msgstr ""
+
+#: wp-portfolio.php:831
+msgid "Group Template"
+msgstr ""
+
+#: wp-portfolio.php:837
+msgid "Website Template"
+msgstr ""
+
+#: wp-portfolio.php:843 wp-portfolio.php:1116
+msgid "Template CSS"
+msgstr ""
+
+#: wp-portfolio.php:849 wp-portfolio.php:1128
+msgid "Widget CSS"
+msgstr ""
+
+#: wp-portfolio.php:860
+msgid "Portfolio Paging Templates"
+msgstr ""
+
+#: wp-portfolio.php:863
+msgid ""
+"The default templates specifically for the paging of websites (when there "
+"are more websites that you want to fit on a single page)."
+msgstr ""
+
+#: wp-portfolio.php:865
+msgid "Replace with the current page number."
+msgstr ""
+
+#: wp-portfolio.php:866
+msgid "Replace with the total number of pages."
+msgstr ""
+
+#: wp-portfolio.php:867
+msgid ""
+"Replace with the start of the range of websites/thumbnails being shown on a "
+"particular page."
+msgstr ""
+
+#: wp-portfolio.php:868
+msgid ""
+"Replace with the end of the range of websites/thumbnails being shown on a "
+"particular page."
+msgstr ""
+
+#: wp-portfolio.php:869
+msgid "Replace with the total number of websites/thumbnails in the portfolio."
+msgstr ""
+
+#: wp-portfolio.php:870
+msgid "Replace with the link to the previous page."
+msgstr ""
+
+#: wp-portfolio.php:871
+msgid "Replace with the link to the next page."
+msgstr ""
+
+#: wp-portfolio.php:872
+msgid "Replace with the list of pages, with each number being a link."
+msgstr ""
+
+#: wp-portfolio.php:879
+msgid "Paging Template"
+msgstr ""
+
+#: wp-portfolio.php:885 wp-portfolio.php:1122
+msgid "Paging CSS"
+msgstr ""
+
+#: wp-portfolio.php:894
+msgid "Showing the Portfolio from PHP"
+msgstr ""
+
+#: wp-portfolio.php:898 wp-portfolio.php:972
+msgid "Parameters"
+msgstr ""
+
+#: wp-portfolio.php:901
+msgid ""
+"The comma separated list of groups to include. To show all groups, specify "
+"%1$s for %2$s. (<b>default</b> is %1$s)"
+msgstr ""
+
+#: wp-portfolio.php:902 wp-portfolio.php:976
+msgid ""
+"The HTML template to use for rendering a single website (using the <a href="
+"\"%1$s#doc-layout\">template tags above</a>). Specify %2$s to use the "
+"website template stored in the settings. (<b>default</b> is %2$s, i.e. use "
+"template stored in settings.)"
+msgstr ""
+
+#: wp-portfolio.php:903
+msgid ""
+"The HTML template to use for rendering a group description (using the <a "
+"href=\"%1$s#doc-layout\">template tags above</a>). Specify %2$s to use the "
+"group template stored in the settings. To hide the group description, "
+"specify a single space character for %3$s. (<b>default</b> is %2$s, i.e. use "
+"template stored in settings.)"
+msgstr ""
+
+#: wp-portfolio.php:904
+msgid ""
+"The number of websites to show per page, set to %1$s or %2$s if you don't "
+"want to use paging.  (<b>default</b> is %1$s, i.e. don't do any paging.)"
+msgstr ""
+
+#: wp-portfolio.php:905
+msgid ""
+"If %1$s, show the websites in ascending order. If %2$s, show the websites in "
+"reverse order. (<b>default</b> is %1$s, i.e. ascending ordering.)"
+msgstr ""
+
+#: wp-portfolio.php:906
+msgid ""
+"Determine how to order the websites. (<b>default</b> is %s, i.e. normal "
+"ordering.)"
+msgstr ""
+
+#: wp-portfolio.php:908
+msgid "If %s, show the websites in normal group order."
+msgstr ""
+
+#: wp-portfolio.php:909
+msgid ""
+"If %s, show the websites ordered by date. If this mode is chosen, group "
+"names are automatically hidden."
+msgstr ""
+
+#: wp-portfolio.php:917 wp-portfolio.php:981
+msgid "Example 1 (using website template stored in settings)"
+msgstr ""
+
+#: wp-portfolio.php:926 wp-portfolio.php:990
+msgid "Example 2 (with custom templates)"
+msgstr ""
+
+#: wp-portfolio.php:948
+msgid "Example 3 (using stored templates, but showing 3 websites per page)"
+msgstr ""
+
+#: wp-portfolio.php:957
+msgid ""
+"Example 4 (using stored templates, but showing 4 websites per page, ordering "
+"by date, with the newest website first)"
+msgstr ""
+
+#: wp-portfolio.php:970
+msgid ""
+"You can show a random selection of your portfolio from within code by using "
+"the %s function. Please note that there is no group information shown when "
+"this function is used."
+msgstr ""
+
+#: wp-portfolio.php:974
+msgid ""
+"The comma separated list of groups to make a random selection from. To "
+"choose from all groups, specify %1$s for %2$s (<b>default</b> is %1$s)."
+msgstr ""
+
+#: wp-portfolio.php:975
+msgid ""
+"The number of websites to show in the random selection. (<b>default</b> is "
+"%s)"
+msgstr ""
+
+#: wp-portfolio.php:1009
+msgid "Advanced Features - Disabling pagepix.js inclusion."
+msgstr ""
+
+#: wp-portfolio.php:1010
+msgid ""
+"If you're not using STW at all, and you want to completely disable "
+"<b>pagepix.js</b> from appearing in the header, then copy and paste the "
+"following code into your theme's <b>functions.php</b>."
+msgstr ""
+
+#: wp-portfolio.php:1045
+msgid ""
+"No WP Portfolio settings were found, so it appears that the plugin has been "
+"uninstalled. Please <b>deactivate</b> and then <b>activate</b> the WP "
+"Portfolio plugin again to fix this."
+msgstr ""
+
+#: wp-portfolio.php:1071
+msgid "Website HTML Template"
+msgstr ""
+
+#: wp-portfolio.php:1073
+msgid "This is the template used to render each of the websites."
+msgstr ""
+
+#: wp-portfolio.php:1074 wp-portfolio.php:1081
+msgid ""
+"A complete list of tags is available in the <a href=\"%s#doc-layout"
+"\">Portfolio Layout Templates</a> section in the documentation."
+msgstr ""
+
+#: wp-portfolio.php:1078
+msgid "Group HTML Template"
+msgstr ""
+
+#: wp-portfolio.php:1080
+msgid ""
+"This is the template used to render each of the groups that the websites "
+"belong to."
+msgstr ""
+
+#: wp-portfolio.php:1086
+msgid "Portfolio Paging Settings"
+msgstr ""
+
+#: wp-portfolio.php:1087
+msgid "Paging HTML Template"
+msgstr ""
+
+#: wp-portfolio.php:1089
+msgid "This is the template used to render the paging for the thumbnails."
+msgstr ""
+
+#: wp-portfolio.php:1090
+msgid ""
+"A complete list of tags is available in the <a href=\"%s#doc-paging"
+"\">Portfolio Paging Templates</a> section in the documentation."
+msgstr ""
+
+#: wp-portfolio.php:1094
+msgid "Text for 'Previous' link"
+msgstr ""
+
+#: wp-portfolio.php:1096
+msgid ""
+"The text to use for the 'Previous' page link used in the thumbnail paging."
+msgstr ""
+
+#: wp-portfolio.php:1099
+msgid "Text for 'Next' link"
+msgstr ""
+
+#: wp-portfolio.php:1101
+msgid "The text to use for the 'Next' page link used in the thumbnail paging."
+msgstr ""
+
+#: wp-portfolio.php:1105
+msgid "Portfolio Stylesheet (CSS) Settings"
+msgstr ""
+
+#: wp-portfolio.php:1108
+msgid "Disable Plugin CSS"
+msgstr ""
+
+#: wp-portfolio.php:1110
+msgid "If ticked, don't use the WP Portfolio CSS below."
+msgstr ""
+
+#: wp-portfolio.php:1111
+msgid ""
+"Allows you to switch off the default CSS so that you can use CSS in your "
+"template CSS file."
+msgstr ""
+
+#: wp-portfolio.php:1112
+msgid ""
+"<strong>Advanced Tip:</strong> Once you're happy with the styles, you should "
+"really move all the CSS below into your template %s. This is so that visitor "
+"browsers can cache the stylesheet and reduce loading times. Any CSS placed "
+"here will be injected into the template &lt;head&gt; tag, which is not the "
+"most efficient method of delivering CSS."
+msgstr ""
+
+#: wp-portfolio.php:1118
+msgid "This is the CSS code used to style the portfolio."
+msgstr ""
+
+#: wp-portfolio.php:1124
+msgid ""
+"This is the CSS code used to style the paging area if you are showing your "
+"portfolio on several pages."
+msgstr ""
+
+#: wp-portfolio.php:1130
+msgid "This is the CSS code used to style the websites in the widget area."
+msgstr ""
+
+#: wp-portfolio.php:1153
+msgid "Summary of Websites in your Portfolio"
+msgstr ""
+
+#: wp-portfolio.php:1183
+msgid "Website was successfully deleted."
+msgstr ""
+
+#: wp-portfolio.php:1186
+msgid ""
+"Sorry, but an unknown error occured whist trying to delete the selected "
+"website from the portfolio."
+msgstr ""
+
+#: wp-portfolio.php:1191
+msgid ""
+"Are you sure you want to delete \"%1$s\" from your portfolio?<br/><br/> <a "
+"href=\"%2$s\">Yes, delete.</a> &nbsp; <a href=\"%3$s\">NO!</a>"
+msgstr ""
+
+#: wp-portfolio.php:1219 wp-portfolio.php:1220 wp-portfolio.php:1356
+#: wp-portfolio.php:1413 wp-portfolio.php:1682
+msgid "Edit"
+msgstr ""
+
+#: wp-portfolio.php:1222
+msgid "The website '%s' was successfully copied to '%s'"
+msgstr ""
+
+#: wp-portfolio.php:1278
+msgid ""
+"Showing <strong>%s</strong> websites in the '%s' group (<a href=\"%s\" class="
+"\"showall\">or Show All</a>). To only show the websites in this group, use %s"
+msgstr ""
+
+#: wp-portfolio.php:1280
+msgid "Showing <strong>%s</strong> websites in the portfolio."
+msgstr ""
+
+#: wp-portfolio.php:1288
+msgid "Sort by:"
+msgstr ""
+
+#: wp-portfolio.php:1289
+msgid ""
+"<a href=\"%s\" title=\"Sort websites in the order you'll see them within "
+"your portfolio.\">Normal Ordering</a>"
+msgstr ""
+
+#: wp-portfolio.php:1291
+msgid "<a href=\"%s\" title=\"Sort the websites by name.\">Name</a>"
+msgstr ""
+
+#: wp-portfolio.php:1293
+msgid "<a href=\"%s\" title=\"Sort the websites by URL.\">URL</a>"
+msgstr ""
+
+#: wp-portfolio.php:1295
+msgid ""
+"<a href=\"%s\" title=\"Sort the websites by the date that the websites were "
+"added.\">Date Added</a>"
+msgstr ""
+
+#: wp-portfolio.php:1303 wp-portfolio.php:1496 wp-portfolio.php:1641
+msgid "ID"
+msgstr ""
+
+#: wp-portfolio.php:1307
+msgid "Thumbnail"
+msgstr ""
+
+#: wp-portfolio.php:1311
+msgid "Site Name"
+msgstr ""
+
+#: wp-portfolio.php:1315
+msgid "URL"
+msgstr ""
+
+#: wp-portfolio.php:1319
+msgid "Date Added"
+msgstr ""
+
+#: wp-portfolio.php:1323
+msgid "Custom Info"
+msgstr ""
+
+#: wp-portfolio.php:1327
+msgid "Visible?"
+msgstr ""
+
+#: wp-portfolio.php:1331
+msgid "Link Displayed?"
+msgstr ""
+
+#: wp-portfolio.php:1335 wp-portfolio.php:1656
+msgid "Ordering"
+msgstr ""
+
+#: wp-portfolio.php:1339
+msgid "Group"
+msgstr ""
+
+#: wp-portfolio.php:1343 wp-portfolio.php:1660
+msgid "Action"
+msgstr ""
+
+#: wp-portfolio.php:1355
+msgid "Visit the website"
+msgstr ""
+
+#: wp-portfolio.php:1371
+msgid "Open custom thumbnail in a new window"
+msgstr ""
+
+#: wp-portfolio.php:1371
+msgid "View Image"
+msgstr ""
+
+#: wp-portfolio.php:1384
+msgid "Custom Thumb"
+msgstr ""
+
+#: wp-portfolio.php:1388 wp-portfolio.php:1960
+msgid "Custom Field"
+msgstr ""
+
+#: wp-portfolio.php:1400
+msgid "Show websites only in the '%s' group"
+msgstr ""
+
+#: wp-portfolio.php:1405
+msgid "Force a refresh of the thumbnail"
+msgstr ""
+
+#: wp-portfolio.php:1405 wp-portfolio.php:1407
+msgid "Refresh"
+msgstr ""
+
+#: wp-portfolio.php:1414
+msgid "Duplicate this website"
+msgstr ""
+
+#: wp-portfolio.php:1414
+msgid "Duplicate"
+msgstr ""
+
+#: wp-portfolio.php:1415
+msgid "Delete this website..."
+msgstr ""
+
+#: wp-portfolio.php:1415 wp-portfolio.php:1681
+msgid "Delete"
+msgstr ""
+
+#: wp-portfolio.php:1432
+msgid "There are currently no websites in the portfolio."
+msgstr ""
+
+#: wp-portfolio.php:1457
+msgid "Debug logs have successfully been emptied."
+msgstr ""
+
+#: wp-portfolio.php:1469
+msgid "Refresh Logs"
+msgstr ""
+
+#: wp-portfolio.php:1470
+msgid "Clear Logs"
+msgstr ""
+
+#: wp-portfolio.php:1488
+msgid "Showing a total of <b>%d</b> log messages.</div>"
+msgstr ""
+
+#: wp-portfolio.php:1490
+msgid ""
+"All errors are <b>cached for 12 hours</b> so that your thumbnail allowance "
+"with STW does not get used up if you have persistent errors."
+msgstr ""
+
+#: wp-portfolio.php:1491
+msgid ""
+"If you've <b>had errors</b>, and you've <b>now fixed them</b>, you can click "
+"on the '<b>Clear Logs</b>' button on the right to <b>flush the error cache</"
+"b> and re-attempt to fetch a thumbnail."
+msgstr ""
+
+#: wp-portfolio.php:1500
+msgid "Result"
+msgstr ""
+
+#: wp-portfolio.php:1504
+msgid "Requested URL"
+msgstr ""
+
+#: wp-portfolio.php:1508
+msgid "Type"
+msgstr ""
+
+#: wp-portfolio.php:1512
+msgid "Request Date"
+msgstr ""
+
+#: wp-portfolio.php:1516
+msgid "Detail"
+msgstr ""
+
+#: wp-portfolio.php:1527
+msgid "Success"
+msgstr ""
+
+#: wp-portfolio.php:1527
+msgid "Error"
+msgstr ""
+
+#: wp-portfolio.php:1540
+msgid "There are currently no debug logs to show."
+msgstr ""
+
+#: wp-portfolio.php:1583 wp-portfolio.php:2038
+msgid ""
+"Sorry, but no group with that ID could be found. Please click <a href=\"%s"
+"\">here</a> to return to the list of groups."
+msgstr ""
+
+#: wp-portfolio.php:1601
+msgid ""
+"Sorry, but there needs to be at least 1 group in the portfolio. Please add a "
+"new group before deleting %s"
+msgstr ""
+
+#: wp-portfolio.php:1610
+msgid "Group was successfully deleted."
+msgstr ""
+
+#: wp-portfolio.php:1613
+msgid ""
+"Sorry, but an unknown error occured whist trying to delete the selected "
+"group from the portfolio."
+msgstr ""
+
+#: wp-portfolio.php:1618
+msgid ""
+"Are you sure you want to delete the group '%1$s' from your portfolio?<br/"
+"><br/> <a href=\"%2$s\">Yes, delete.</a> &nbsp; <a href=\"%3$s\">NO!</a>"
+msgstr ""
+
+#: wp-portfolio.php:1645
+msgid "Name"
+msgstr ""
+
+#: wp-portfolio.php:1649
+msgid "Description"
+msgstr ""
+
+#: wp-portfolio.php:1652
+msgid "# Websites"
+msgstr ""
+
+#: wp-portfolio.php:1665
+msgid ""
+"The websites will be rendered in groups in the order shown in the table."
+msgstr ""
+
+#: wp-portfolio.php:1669
+msgid "Show websites only in the '%s' group\">"
+msgstr ""
+
+#: wp-portfolio.php:1696
+msgid "There are currently no groups in the portfolio."
+msgstr ""
+
+#: wp-portfolio.php:1727 wp-portfolio.php:2022
+msgid "Add New"
+msgstr ""
+
+#: wp-portfolio.php:1729 wp-portfolio.php:2024
+msgid "Modify"
+msgstr ""
+
+#: wp-portfolio.php:1737 wp-portfolio.php:1991
+msgid "Website Details"
+msgstr ""
+
+#: wp-portfolio.php:1743
+msgid ""
+"Sorry, but no website with that ID could be found. Please click <a href=\"%s"
+"\">here</a> to return to the list of websites."
+msgstr ""
+
+#: wp-portfolio.php:1790
+msgid ""
+"Please check that you have completed the site name, url and description "
+"fields."
+msgstr ""
+
+#: wp-portfolio.php:1795
+msgid "Sorry, but the custom field is limited to a maximum of 255 characters."
+msgstr ""
+
+#: wp-portfolio.php:1808
+msgid ""
+"Sorry, but the 'Date Added' date format was not recognised. Please enter a "
+"date in the format <em>'yyyy-mm-dd hh:mm:ss'</em>."
+msgstr ""
+
+#: wp-portfolio.php:1848
+msgid "Website details successfully updated."
+msgstr ""
+
+#: wp-portfolio.php:1856
+msgid "Website details successfully added."
+msgstr ""
+
+#: wp-portfolio.php:1876 wp-portfolio.php:2117
+msgid ""
+"Sorry, but unfortunately there were some errors. Please fix the errors and "
+"try again."
+msgstr ""
+
+#: wp-portfolio.php:1892
+msgid "Website Name"
+msgstr ""
+
+#: wp-portfolio.php:1894
+msgid "The proper name of the website."
+msgstr ""
+
+#: wp-portfolio.php:1894 wp-portfolio.php:1899 wp-portfolio.php:1904
+msgid "(Required)"
+msgstr ""
+
+#: wp-portfolio.php:1897
+msgid "Website URL"
+msgstr ""
+
+#: wp-portfolio.php:1899
+msgid "The URL for the website, including the leading"
+msgstr ""
+
+#: wp-portfolio.php:1902
+msgid "Website Description"
+msgstr ""
+
+#: wp-portfolio.php:1904
+msgid "The description of your website. HTML is permitted."
+msgstr ""
+
+#: wp-portfolio.php:1921
+msgid "The group you want to assign this website to."
+msgstr ""
+
+#: wp-portfolio.php:1924
+msgid "Show Advanced Settings"
+msgstr ""
+
+#: wp-portfolio.php:1926
+msgid "Show Website?"
+msgstr ""
+
+#: wp-portfolio.php:1927
+msgid "Show Website"
+msgstr ""
+
+#: wp-portfolio.php:1927
+msgid "Hide Website"
+msgstr ""
+
+#: wp-portfolio.php:1929
+msgid ""
+"By changing this option, you can show or hide a website from the portfolio."
+msgstr ""
+
+#: wp-portfolio.php:1932
+msgid "Show Link?"
+msgstr ""
+
+#: wp-portfolio.php:1933
+msgid "Show Link"
+msgstr ""
+
+#: wp-portfolio.php:1933
+msgid "Hide Link"
+msgstr ""
+
+#: wp-portfolio.php:1935
+msgid ""
+"With this option, you can choose whether or not to display the URL to the "
+"website."
+msgstr ""
+
+#: wp-portfolio.php:1938
+msgid "Date Website Added"
+msgstr ""
+
+#: wp-portfolio.php:1940
+msgid ""
+"Here you can adjust the date in which the website was added to the "
+"portfolio. This is useful if you're adding items retrospectively. (valid "
+"format is yyyy-mm-dd hh:mm:ss)"
+msgstr ""
+
+#: wp-portfolio.php:1943
+msgid "Website Ordering"
+msgstr ""
+
+#: wp-portfolio.php:1945
+msgid ""
+"The number to use for ordering the websites. Websites are rendered in "
+"ascending order, first by this order value (lowest value first), then by "
+"website name."
+msgstr ""
+
+#: wp-portfolio.php:1946
+msgid ""
+"e.g. Websites (A, B, C, D) with ordering (50, 100, 0, 50) will be rendered "
+"as (C, A, D, B)."
+msgstr ""
+
+#: wp-portfolio.php:1947
+msgid ""
+"If all websites have 0 for ordering, then the websites are rendered in "
+"alphabetical order by name."
+msgstr ""
+
+#: wp-portfolio.php:1951
+msgid "Custom Thumbnail URL"
+msgstr ""
+
+#: wp-portfolio.php:1954
+msgid ""
+"If specified, the URL of a custom thumbnail to use <em>instead</em> of the "
+"screenshot of the URL above."
+msgstr ""
+
+#: wp-portfolio.php:1955
+msgid "The image URL must include the leading <em>http://</em>, e.g."
+msgstr ""
+
+#: wp-portfolio.php:1956
+msgid ""
+"Leave this field blank to use an automatically generated screenshot of the "
+"website specified above."
+msgstr ""
+
+#: wp-portfolio.php:1957
+msgid ""
+"Custom thumbnails are automatically resized to match the size of the other "
+"thumbnails."
+msgstr ""
+
+#: wp-portfolio.php:1960 wp-portfolio.php:1971
+msgid "Advanced Feature"
+msgstr ""
+
+#: wp-portfolio.php:1963
+msgid ""
+"Allows you to specify a value that is substituted into the <tt><b>%s</b></"
+"tt> field. This can be any value. Examples of what you could use the custom "
+"field for include:"
+msgstr ""
+
+#: wp-portfolio.php:1964
+msgid "Affiliate URLs for the actual URL that visitors click on."
+msgstr ""
+
+#: wp-portfolio.php:1965
+msgid ""
+"Information as to the type of work a website relates to (e.g. design work, "
+"SEO, web development)."
+msgstr ""
+
+#: wp-portfolio.php:1970
+msgid "Use Specific Page Capture"
+msgstr ""
+
+#: wp-portfolio.php:1972
+msgid "STW Paid Account Only"
+msgstr ""
+
+#: wp-portfolio.php:1973
+msgid "No - Homepage Only"
+msgstr ""
+
+#: wp-portfolio.php:1973
+msgid "Yes - Show Specific Page"
+msgstr ""
+
+#: wp-portfolio.php:1975
+msgid ""
+"Requires Shrink The Web 'Specific Page Capture' Paid (Basic or Plus) feature."
+msgstr ""
+
+#: wp-portfolio.php:1976
+msgid ""
+"If enabled show internal web page rather than website's homepage. If in "
+"doubt, select <b>'No - Homepage Only'</b>."
+msgstr ""
+
+#: wp-portfolio.php:1991 wp-portfolio.php:2163
+msgid "Update"
+msgstr ""
+
+#: wp-portfolio.php:1991 wp-portfolio.php:2163
+msgid "Add"
+msgstr ""
+
+#: wp-portfolio.php:2033
+msgid " Group Details"
+msgstr ""
+
+#: wp-portfolio.php:2071
+msgid ""
+"Please check that you have completed the group name and description fields."
+msgstr ""
+
+#: wp-portfolio.php:2097
+msgid "Group details successfully updated."
+msgstr ""
+
+#: wp-portfolio.php:2104
+msgid "Group details successfully added."
+msgstr ""
+
+#: wp-portfolio.php:2133
+msgid "Group Name"
+msgstr ""
+
+#: wp-portfolio.php:2135
+msgid "The name for this group of websites."
+msgstr ""
+
+#: wp-portfolio.php:2138
+msgid "Group Description"
+msgstr ""
+
+#: wp-portfolio.php:2140
+msgid "The description of your group. HTML is permitted."
+msgstr ""
+
+#: wp-portfolio.php:2144
+msgid "Group Order"
+msgstr ""
+
+#: wp-portfolio.php:2146
+msgid ""
+"The number to use for ordering the groups. Groups are rendered in ascending "
+"order, first by this order value (lowest value first), then by group name."
+msgstr ""
+
+#: wp-portfolio.php:2147
+msgid ""
+"e.g. Groups (A, B, C, D) with ordering (50, 100, 0, 50) will be rendered as "
+"(C, A, D, B)."
+msgstr ""
+
+#: wp-portfolio.php:2148
+msgid ""
+"If all groups have 0 for ordering, then the groups are rendered in "
+"alphabetical order."
+msgstr ""
+
+#: wp-portfolio.php:2163
+msgid "Group Details"
+msgstr ""
+
+#: wp-portfolio.php:2456
+msgid "Deleted WP Portfolio database entries."
+msgstr ""
+
+#: wp-portfolio.php:2516
+msgid "Portfolio item <b>ID %d</b> does not exist."
+msgstr ""
+
+#: wp-portfolio.php:2945
+msgid "Created using %s by the %s</div>"
+msgstr ""
+
+#: wp-portfolio.php:3076
+msgid ""
+"Redirecting in %1$s seconds. Please click <a href=\"%2$s\">here</a> if you "
+"do not wish to wait."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Wordpress Portfolio Plugin"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/extend/plugins/wp-portfolio/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A plugin that allows you to show off your portfolio through a single page on "
+"your wordpress blog with automatically generated thumbnails. To show your "
+"portfolio, create a new page and paste [wp-portfolio] into it. The plugin "
+"requires you to have a free account with <a href=\"http://www.shrinktheweb."
+"com/\">Shrink The Web</a> to generate the thumbnails."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Dan Harrison"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.wpdoctors.co.uk"
+msgstr ""

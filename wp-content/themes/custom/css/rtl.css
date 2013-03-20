@@ -1,0 +1,135 @@
+/*
+Theme Name: Twenty Twelve
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+It's easy, just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+See http://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+/* line 11, ../scss/rtl.scss */
+body { direction: rtl; unicode-bidi: embed; }
+
+/* line 17, ../scss/rtl.scss */
+caption, th, td { text-align: right; }
+
+/* =Repeatable patterns
+-------------------------------------------------------------- */
+/* Images */
+/* line 25, ../scss/rtl.scss */
+.site-content .gallery-columns-4 .gallery-item { padding-left: 2%; padding-right: 0; }
+
+/* line 29, ../scss/rtl.scss */
+.site-content .gallery-columns-5 .gallery-item { padding-left: 2%; padding-right: 0; }
+
+/* Navigation */
+/* line 36, ../scss/rtl.scss */
+.nav-previous, .previous-image { float: right; }
+
+/* line 40, ../scss/rtl.scss */
+.nav-next, .next-image { float: left; text-align: left; }
+
+/* Author profiles */
+/* line 46, ../scss/rtl.scss */
+.author-avatar { float: right; }
+
+/* line 49, ../scss/rtl.scss */
+.author-description { float: right; margin-right: 15px; margin-right: 1.071428571rem; margin-left: auto; }
+
+/* =Main Content
+----------------------------------------------- */
+/* line 61, ../scss/rtl.scss */
+.comment-content ol, .comment-content ul { margin: 0 24px 0 0; margin: 0 1.714285714rem 0 0; }
+
+/* =Basic post styling
+-------------------------------------------------------------- */
+/* line 71, ../scss/rtl.scss */
+.entry-content li, .comment-content li { margin: 0 24px 0 0; margin: 0 1.714285714rem 0 0; }
+
+/* line 76, ../scss/rtl.scss */
+.entry-content td, .comment-content td { padding: 6px 0 6px 10px; }
+
+/* Aside posts */
+/* line 82, ../scss/rtl.scss */
+article.format-aside .aside { border-right: 22px solid #a8bfe8; border-left: none; }
+
+/* Link posts */
+/* line 88, ../scss/rtl.scss */
+article.format-link header { float: left; }
+
+/* line 91, ../scss/rtl.scss */
+article.format-link .entry-content { float: right; }
+
+/* Status posts */
+/* line 96, ../scss/rtl.scss */
+.format-status .entry-header img { float: right; margin-left: 21px; margin-left: 1.5rem; margin-right: 0; }
+
+/* =Comment styling
+-------------------------------------------------------------- */
+/* line 107, ../scss/rtl.scss */
+.comments-area article header img { float: right; }
+
+/* line 111, ../scss/rtl.scss */
+.comments-area article header cite, .comments-area article header time { margin-right: 85px; margin-right: 6.071428571rem; margin-left: auto; }
+
+/* line 116, ../scss/rtl.scss */
+.comments-area article header h4 { left: 0; right: auto; }
+
+/* line 120, ../scss/rtl.scss */
+.comments-area li.bypostauthor cite span { margin-right: 5px; margin-right: 0.357142857rem; margin-left: auto; }
+
+/* Comment form */
+/* line 127, ../scss/rtl.scss */
+#respond h3#reply-title #cancel-comment-reply-link { margin-right: 10px; margin-right: 0.714285714rem; margin-left: auto; }
+
+/* line 132, ../scss/rtl.scss */
+label ~ span.required { float: right; margin: -18px -16px 0 0; margin: -1.28571rem -1.14286rem 0 0; }
+
+/* =Front page template styling
+-------------------------------------------------------------- */
+/* line 142, ../scss/rtl.scss */
+.template-front-page .widget-area .widget_text img { float: right; margin: 8px 0 8px 24px; margin: 0.571428571rem 0 0.571428571rem 1.714285714rem; }
+
+/* =Widget styling
+-------------------------------------------------------------- */
+/* line 152, ../scss/rtl.scss */
+.widget-area .widget ul ul { margin-right: 12px; margin-right: 0.857142857rem; margin-left: auto; }
+
+/* line 157, ../scss/rtl.scss */
+.widget-area .textwidget li { margin-left: auto; margin-right: 36px; margin-right: 2.571428571rem; }
+
+/* line 163, ../scss/rtl.scss */
+.widget_recent_entries .post-date, .widget_rss .rss-date { margin-right: 12px; margin-right: 0.857142857rem; margin-left: auto; }
+
+/* line 170, ../scss/rtl.scss */
+#wp-calendar th, #wp-calendar td, #wp-calendar caption { text-align: right; }
+
+/* line 173, ../scss/rtl.scss */
+#wp-calendar #next { padding-left: 24px; padding-left: 1.714285714rem; text-align: left; padding-right: 0; }
+
+/* =Media queries
+-------------------------------------------------------------- */
+/* Minimum width of 600 pixels. */
+@media screen and (min-width: 600px) { /* line 186, ../scss/rtl.scss */
+  .site-content, .template-front-page.has-post-thumbnail article { float: right; }
+  /* line 190, ../scss/rtl.scss */
+  .widget-area, .entry-page-image { float: left; }
+  /* line 194, ../scss/rtl.scss */
+  .site-header h1, .site-header h2 { text-align: right; }
+  /* line 197, ../scss/rtl.scss */
+  .template-front-page .widget-area .widget_text img { float: right; margin: 8px 0 8px 24px; }
+  /* line 202, ../scss/rtl.scss */
+  .template-front-page .widget-area .widget, .template-front-page.two-sidebars .widget-area .front-widgets { float: right; }
+  /* line 205, ../scss/rtl.scss */
+  .template-front-page .widget-area .widget:nth-child(odd) { clear: left; }
+  /* line 209, ../scss/rtl.scss */
+  .template-front-page .widget-area .widget:nth-child(even), .template-front-page.two-sidebars .widget-area .front-widgets + .front-widgets { float: left; margin: 0 24px 0; margin: 0 1.714285714rem 0; }
+  /* line 215, ../scss/rtl.scss */
+  .main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul { text-align: right; }
+  /* line 218, ../scss/rtl.scss */
+  .main-navigation li { margin-left: 40px; margin-left: 2.857142857rem; margin-right: auto; }
+  /* line 223, ../scss/rtl.scss */
+  .main-navigation li ul ul { margin-right: 0; right: 100%; left: auto; }
+  /* line 228, ../scss/rtl.scss */
+  .main-navigation ul li:hover > ul { border-right: 0; border-left: none; }
+  /* line 232, ../scss/rtl.scss */
+  .commentlist .children { margin-right: 48px; margin-right: 3.428571429rem; margin-left: auto; } }

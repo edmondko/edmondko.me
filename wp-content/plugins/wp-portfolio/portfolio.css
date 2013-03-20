@@ -1,0 +1,290 @@
+@CHARSET "ISO-8859-1";
+
+/* Definition Lists */
+dl {
+	margin-left: 20px;
+}
+
+dt {
+	font-weight: bold;
+	font-size: 105%;
+}
+
+dd {
+	margin-left: 10px;
+}
+
+a.showall {
+	text-decoration: none;
+}
+
+.wpp-cache-selected {
+	color: green;
+}
+
+.wpp-id {
+	width: 50px;
+}
+
+.wpp-url {
+	width: 20%;
+}
+
+.wpp_clear {
+	clear: both;
+}
+
+#wpptable td,#wpptable th {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#wpptable .wpp-name {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.wpp-thumbnail {
+	width: 130px;
+}
+
+.wpp-thumbnail img {
+	border: 1px solid #CCC;
+	padding: 2px;
+}
+
+.wpp-center {
+	text-align: center;
+}
+
+#wpptable #ordering,#wpptable #websitecount {
+	text-align: center;
+}
+
+ul.wp-group-syntax {
+	margin-left: 20px;
+	list-style-type: disc;
+}
+
+ul.wp-group-syntax ul {
+	margin-left: 40px;
+	margin-top: 5px;
+	list-style-type: disc;
+}
+
+.wpp-type,.wpp-result {
+	width: 70px;
+}
+
+.wpp-action-links a.wpp-refresh,.wpp-action-links a.wpp-edit,.wpp-refresh-disabled
+	{
+	font-size: 110%;
+	font-weight: bold;
+}
+
+.wpp-action-links {
+	min-width: 65px;
+}
+
+.wpp-refresh-disabled {
+	color: #CCC;
+}
+
+.wpp-detail .wpp-debug-detail-info,.wpp-detail .wpp-debug-detail-header
+	{
+	max-width: 600px;
+	word-wrap: break-word;
+}
+
+.wpp-request-date {
+	min-width: 140px;
+}
+
+.wpp-custom-thumb {
+	display: block;
+	line-height: 1.2em;
+	margin-bottom: 10px;
+}
+
+.wpp-custom-field {
+	display: block;
+}
+
+#wpp-loader {
+	display: none;
+}
+
+.site-inactive {
+	background-color: #FFD3D3;
+}
+
+/* Styles for ShowHide Advanced Link */
+#wpp-hide-show-advanced {
+	font-weight: bold;
+	margin: 10px 0 10px 0;
+	padding: 5px 0 5px 0;
+}
+
+#wpp-hide-show-advanced.wpp_hide {
+	border-bottom: 1px solid #1D507D;
+}
+
+#wpp-hide-show-advanced a {
+	text-decoration: none;
+}
+
+#wpp-hide-show-advanced a:hover {
+	text-decoration: underline;
+}
+
+/* Styles for Server Checks */
+#wpp-checklist td {
+	padding: 5px 10px;
+	border-bottom: 1px solid #CCC;
+}
+
+#wpp-checklist {
+	margin-top: 10px;
+	border: 1px solid #CCC;
+	border-bottom: 0;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+#wpp-checklist .wpp-error-info {
+	color: #9F0000;
+	width: 250px;
+	display: block;
+	margin-top: 10px;
+}
+
+/* Widget Styles */
+.wp-portfolio-widget-des {
+	margin: 8px 0;
+	font-size: 110%;
+}
+
+.widget-website {
+	border: 1px solid #AAA;
+	padding: 3px 10px;
+	margin: 0 5px 10px;
+}
+
+.widget-website-name {
+	font-size: 120%;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.widget-website-description {
+	line-height: 1.1em;
+}
+
+.widget-website-thumbnail {
+	margin: 10px auto 6px auto;
+	width: 102px;
+}
+
+.widget-website-thumbnail img {
+	width: 100px;
+	border: 1px solid #555;
+	margin: 0;
+	padding: 0;
+}
+
+.widget-website-clear {
+	clear: both;
+	height: 1px;
+}
+
+.settings-spacer {
+	margin-top: 20px;
+	border-top: 2px solid #DDD;
+}
+
+.wpp-settings-div {
+	border-top: 1px solid #DDD;
+	margin: 30px 0 10px;
+	padding: 10px 0 5px;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+/* Debug */
+.wpp-debug-detail-header {
+	font-weight: bold;
+	display: block;
+}
+
+.wpp-debug-detail-info {
+	font-family: Courier, Courier New;
+	display: block;
+	word-wrap: break-word;
+	color: #174F69;
+	margin: 5px;
+	border: 1px solid #DFDFDF;
+	padding: 5px;
+	background-color: #FFF;
+}
+
+.wpp-button-right {
+	margin: 1em 0;
+	float: right;
+}
+
+/* Paid Only */
+.wpp-stw-paid {
+	color: green;
+}
+
+input.wpp-size-custom {
+	width: 150px;
+}
+
+.wpp-size-custom-other {
+	display: inline-table;
+	margin-left: 10px;
+	font-size: 13px;
+}
+
+/* Advanced */
+.wpp-advanced-feature {
+	color: blue;
+}
+
+.wpp-advanced-feature,.wpp-stw-paid {
+	font-weight: bold;
+	font-size: 8pt;
+	margin-left: 10px;
+}
+
+/* Error Logs */
+#wpp_error_count {
+	font-size: 110%;
+}
+
+#wpptable_error_log .wpp-result {
+	font-weight: bold;
+}
+
+#wpptable_error_log .wpp-result span {
+	padding-left: 20px;
+	line-height: 16px;
+	display: block;
+}
+
+#wpptable_error_log .wpp_error .wpp-result {
+	color: red;
+}
+
+#wpptable_error_log .wpp_error .wpp-result span {
+	background: url('imgs/icon_cross.png') no-repeat;
+}
+
+#wpptable_error_log .wpp_success .wpp-result {
+	color: green;
+}
+
+#wpptable_error_log .wpp_success .wpp-result {
+	background: url('imgs/icon_tick.png') no-repeat;
+}

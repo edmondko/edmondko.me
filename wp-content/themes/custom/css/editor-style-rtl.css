@@ -1,0 +1,22 @@
+/*
+Theme Name: Twenty Twelve
+Description: Used to style the TinyMCE editor for RTL languages.
+See also rtl.css file.
+*/
+/* line 7, ../scss/editor-style-rtl.scss */
+html .mceContentBody { direction: rtl; unicode-bidi: embed; }
+
+/* line 11, ../scss/editor-style-rtl.scss */
+li { margin: 0 24px 0 0; margin: 0 1.714285714rem 0 0; }
+
+/* line 15, ../scss/editor-style-rtl.scss */
+dl { margin: 0 24px; margin: 0 1.714285714rem; }
+
+/* line 19, ../scss/editor-style-rtl.scss */
+tr th { text-align: right; }
+
+/* line 22, ../scss/editor-style-rtl.scss */
+td { padding: 6px 0 6px 10px; text-align: right; }
+
+/* line 26, ../scss/editor-style-rtl.scss */
+.wp-caption { text-align: right; }

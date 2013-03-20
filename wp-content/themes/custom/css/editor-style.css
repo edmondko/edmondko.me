@@ -1,0 +1,174 @@
+/*
+Theme Name: Twenty Twelve
+Description: Used to style the TinyMCE editor.
+*/
+/* line 6, ../scss/editor-style.scss */
+html { font-size: 87.5%; }
+
+/* line 9, ../scss/editor-style.scss */
+html .mceContentBody { max-width: 625px; }
+
+/* line 12, ../scss/editor-style.scss */
+body { color: #444; font-family: "Open Sans", Helvetica, Arial, sans-serif; font-size: 14px; font-size: 1rem; line-height: 1; text-rendering: optimizeLegibility; vertical-align: baseline; }
+
+/* =Headings
+-------------------------------------------------------------- */
+/* line 31, ../scss/editor-style.scss */
+h1, h2, h3, h4, h5, h6 { clear: both; line-height: 1.846153846; margin: 24px 0; margin: 1.714285714rem 0; }
+
+/* line 37, ../scss/editor-style.scss */
+h1 { font-size: 21px; font-size: 1.5rem; line-height: 1.5; }
+
+/* line 42, ../scss/editor-style.scss */
+h2 { font-size: 18px; font-size: 1.285714286rem; line-height: 1.6; }
+
+/* line 47, ../scss/editor-style.scss */
+h3 { font-size: 16px; font-size: 1.142857143rem; }
+
+/* line 51, ../scss/editor-style.scss */
+h4 { font-size: 14px; font-size: 1rem; }
+
+/* line 55, ../scss/editor-style.scss */
+h5 { font-size: 13px; font-size: 0.928571429rem; }
+
+/* line 59, ../scss/editor-style.scss */
+h6 { font-size: 12px; font-size: 0.857142857rem; }
+
+/* line 63, ../scss/editor-style.scss */
+hr { background-color: #ccc; border: 0; height: 1px; margin: 24px; margin-bottom: 1.714285714rem; }
+
+/* =Text elements
+-------------------------------------------------------------- */
+/* line 75, ../scss/editor-style.scss */
+p { line-height: 1.714285714; margin: 0 0 24px; margin: 0 0 1.714285714rem; }
+
+/* line 81, ../scss/editor-style.scss */
+ul, ol { margin: 0 0 24px; margin: 0 0 1.714285714rem; line-height: 1.714285714; padding: 0; }
+
+/* line 87, ../scss/editor-style.scss */
+ul { list-style: disc outside; }
+
+/* line 90, ../scss/editor-style.scss */
+ol { list-style: decimal outside; }
+
+/* line 96, ../scss/editor-style.scss */
+ul ul, ol ol, ul ol, ol ul { margin-bottom: 0; }
+
+/* line 99, ../scss/editor-style.scss */
+li { margin: 0 0 0 24px; margin: 0 0 0 1.714285714rem; }
+
+/* line 103, ../scss/editor-style.scss */
+dl { margin: 0 24px; margin: 0 1.714285714rem; }
+
+/* line 107, ../scss/editor-style.scss */
+dt { font-weight: bold; margin-bottom: 24px; margin-bottom: 1.714285714rem; }
+
+/* line 112, ../scss/editor-style.scss */
+dd { line-height: 1.714285714; margin: 0 0 24px; margin: 0 0 1.714285714rem; }
+
+/* line 117, ../scss/editor-style.scss */
+strong { font-weight: bold; }
+
+/* line 122, ../scss/editor-style.scss */
+cite, em, i { font-style: italic; }
+
+/* line 125, ../scss/editor-style.scss */
+cite { border: none; }
+
+/* line 128, ../scss/editor-style.scss */
+big { font-size: 128.571429%; }
+
+/* line 131, ../scss/editor-style.scss */
+.mceContentBody blockquote { font-style: italic !important; font-weight: normal; margin: 0; padding: 24px; padding: 1.714285714rem; }
+
+/* line 138, ../scss/editor-style.scss */
+pre { border: 1px solid #ededed; color: #666; font-family: Consolas, Monaco, Lucida Console, monospace; font-size: 12px; font-size: 0.857142857rem; line-height: 1.714285714; margin: 24px 0; margin: 1.714285714rem 0; overflow: auto; padding: 24px; padding: 1.714285714rem; }
+
+/* line 154, ../scss/editor-style.scss */
+code, kbd, samp, var { font-family: Consolas, Monaco, Lucida Console, monospace; font-size: 12px; font-size: 0.857142857rem; line-height: 2; }
+
+/* line 162, ../scss/editor-style.scss */
+abbr, acronym, dfn { border-bottom: 1px dotted #666; cursor: help; }
+
+/* line 166, ../scss/editor-style.scss */
+address { display: block; line-height: 1.714285714; margin: 0 0 24px; margin: 0 0 1.714285714rem; }
+
+/* line 172, ../scss/editor-style.scss */
+del { color: #333; }
+
+/* line 175, ../scss/editor-style.scss */
+ins { background: #fff9c0; border: none; color: #333; text-decoration: none; }
+
+/* line 182, ../scss/editor-style.scss */
+sup, sub { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+
+/* line 188, ../scss/editor-style.scss */
+sup { top: -0.5em; }
+
+/* line 191, ../scss/editor-style.scss */
+sub { bottom: -0.25em; }
+
+/* line 194, ../scss/editor-style.scss */
+input[type="text"] { border: 1px solid #ccc; border-radius: 3px; font-family: inherit; padding: 6px; padding: 0.428571429rem; }
+
+/* line 201, ../scss/editor-style.scss */
+textarea { border: 1px solid #d5d2ca; border-radius: 3px; font-family: inherit; font-size: 12px; font-size: 0.857142857rem; line-height: 1.714285714; padding: 10px; padding: 0.714285714rem; width: 96%; }
+
+/* =Links
+-------------------------------------------------------------- */
+/* line 219, ../scss/editor-style.scss */
+a, a em, a strong { color: #21759b; outline: none; }
+
+/* line 225, ../scss/editor-style.scss */
+a:focus, a:active, a:hover { color: #0f3647; }
+
+/* =Alignment
+-------------------------------------------------------------- */
+/* line 233, ../scss/editor-style.scss */
+.alignleft { display: inline; float: left; margin: 12px 24px 12px 0; margin: 0.857142857rem 1.714285714rem 0.857142857rem 0; }
+
+/* line 239, ../scss/editor-style.scss */
+.alignright { display: inline; float: right; margin: 12px 0 12px 24px; margin: 0.857142857rem 0 0.857142857rem 1.714285714rem; }
+
+/* line 245, ../scss/editor-style.scss */
+.aligncenter { clear: both; display: block; margin-top: 12px; margin-top: 0.857142857rem; margin-bottom: 12px; margin-bottom: 0.857142857rem; }
+
+/* =Tables
+-------------------------------------------------------------- */
+/* line 258, ../scss/editor-style.scss */
+table { border-bottom: 1px solid #ededed; border-collapse: collapse; border-spacing: 0; color: #757575; font-size: 12px; font-size: 0.857142857rem; line-height: 2; margin: 0 0 24px; margin: 0 0 1.714285714rem; width: 100%; }
+
+/* line 270, ../scss/editor-style.scss */
+tr th { color: #636363; font-size: 11px; font-size: 0.785714286rem; font-weight: bold; line-height: 2.181818182; text-align: left; text-transform: uppercase; }
+
+/* line 279, ../scss/editor-style.scss */
+td { border-top: 1px solid #ededed !important; color: #757575; font-size: inherit; font-weight: normal; padding: 6px 10px 6px 0; text-align: left; }
+
+/* =Images
+-------------------------------------------------------------- */
+/* line 293, ../scss/editor-style.scss */
+img, .editor-attachment { border: 0; border-radius: 3px; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2); max-width: 100%; }
+
+/* line 299, ../scss/editor-style.scss */
+img.size-full { width: auto/9; /* Prevent stretching of full-size images in IE8 */ }
+
+/* line 302, ../scss/editor-style.scss */
+img[class*="wp-image-"] { height: auto; max-width: 100%; }
+
+/* line 308, ../scss/editor-style.scss */
+img[class*="align"], img[class*="wp-image-"], img[class*="attachment-"] { height: auto; /* Make sure images with WordPress-added height and width attributes are scaled correctly */ }
+
+/* line 311, ../scss/editor-style.scss */
+img.mceWPnextpage { border-radius: 0; box-shadow: none; }
+
+/* line 315, ../scss/editor-style.scss */
+img.wp-smiley { border: 0; border-radius: 0; box-shadow: none; margin-bottom: 0; margin-top: 0; padding: 0; }
+
+/* line 323, ../scss/editor-style.scss */
+.wp-caption { background: transparent; border: none; margin: 0; padding: 4px; text-align: left; }
+
+/* line 330, ../scss/editor-style.scss */
+.wp-caption-dt { margin: 0; }
+
+/* line 334, ../scss/editor-style.scss */
+.wp-caption .wp-caption-text, .wp-caption-dd { color: #757575; font-style: italic; font-size: 12px; font-size: 0.857142857rem; line-height: 2; margin: 0 0 24px; margin: 0 0 1.71429rem; }
